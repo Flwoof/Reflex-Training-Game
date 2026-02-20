@@ -5,10 +5,10 @@ This is a simple game that is intended to help train reflexes. The game increase
 <ins>HOW TO RUN</ins>
 
 _Files from here_
-  -coding file titled "Reaction Code"
+##coding file titled "Reaction Code"
 _Libraries you Need_ 
-  - Adafruit SSD1306 by Adafruit (install from Arduino IDE library manager)
-  - Adafruit GFX by Adafruit (install from Arduino IDE library manager)
+##Adafruit SSD1306 by Adafruit (install from Arduino IDE library manager)
+##Adafruit GFX by Adafruit (install from Arduino IDE library manager)
 
 **If you've never installed a library before:**
 1. Open Arduino IDE
