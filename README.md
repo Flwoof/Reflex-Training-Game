@@ -19,6 +19,14 @@ _Hardware Needed_ <br/>
   - .09" OLED screen <br/>
   - 360 degree servo <br/>
   - 2 servo one arm bits. I cut one in half and glued it to the other to get the desired length. <br/>
+  
+**How to Play the Game** <br/>
+The game should start as soon as you plug the Arduino in <br/>
+One LED should light up, you're trying to time your button press with when the arm passes over the sensor connected to that LED
+If you press at the correct time, the score counter on the OLED screen will increment by 1. The arm will now start to spin the opposite direction.
+If you press at an incorrect time, the score will not go up and the game will end
+The game continues forever, although there is a speed cap after level 35.
+
 
 ## **If you've never installed a library before:**
 1. Open Arduino IDE
