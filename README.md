@@ -9,7 +9,10 @@ _Files from here_ <br/>
 
 _Libraries you Need_ <br/>
   -Adafruit SSD1306 by Adafruit (install from Arduino IDE library manager) <br/>
-  -Adafruit GFX by Adafruit (install from Arduino IDE library manager)
+  -Adafruit GFX by Adafruit (install from Arduino IDE library manager) <br/>
+  
+_Hardware Needed_ <br/>
+
 
 ## **If you've never installed a library before:**
 1. Open Arduino IDE
