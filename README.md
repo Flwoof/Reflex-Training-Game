@@ -3,6 +3,7 @@ This is a simple game that is intended to help train reflexes. The game increase
 
 
 <ins>HOW TO RUN</ins>
+
 _Files from here_
   -coding file titled "Reaction Code"
 _Libraries you Need_ 
