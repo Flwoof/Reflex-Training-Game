@@ -42,7 +42,8 @@ _Game Features_ <br/>
 - When the game ends the LEDs preform a "game-over" light sequence <br/>
 
 ## Known Issues <br/>
-Every 360 degree servo is slightly different. While the resting point for most is around 90, the one I used will not move CounterClockwise unless you pass in a value greater than 96 for Spinner.write(*put value here*). If your Servo isn't moving on the earlier levels I'd reccomend changing the first few values in the spinSpeeds array <br/>
+Every 360 degree servo is slightly different. While the resting point for most is around 90, the one I used will not move Counter-Clockwise unless you pass in a value greater than 96 for Spinner.write(*put value here*). If your Servo isn't moving on the earlier levels I'd reccomend changing the first few values in the spinSpeeds array <br/>
+<br/>
 The debounce time is currently at 150ms, which is optimal for this project. Regardless, if you spam the pushbutton while over the sensor your correct press can get counted as incorrect <br/>
 
 
