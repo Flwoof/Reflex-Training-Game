@@ -8,7 +8,7 @@ _Files from here_ <br/>
   -Coding file titled "Reaction Code"
 
 _Libraries you Need_ <br/>
-  -Adafruit SSD1306 by Adafruit (install from Arduino IDE library manager)
+  -Adafruit SSD1306 by Adafruit (install from Arduino IDE library manager) <br/>
   -Adafruit GFX by Adafruit (install from Arduino IDE library manager)
 
 ## **If you've never installed a library before:**
