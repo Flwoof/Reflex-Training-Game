@@ -43,7 +43,7 @@ _Game Features_ <br/>
 
 ## Known Issues <br/>
 Every 360 degree servo is slightly different. While the resting point for most is intended to be 90, and any value greater or less than 90 should make the servo move, the one I used will not move Counter-Clockwise unless you pass in a value greater than 96 for Spinner.write(*put value here*). If your Servo isn't moving on the earlier levels or is moving to fast I'd reccomend changing the first few values in the spinSpeeds array. Closer to 90 = slower, further from 90 = faster. <br/>
-<br/>
+
 The debounce time is currently at 150ms, which is optimal for this project. Regardless, if you spam the pushbutton while over the sensor your correct press can get counted as incorrect <br/>
 
 
