@@ -5,14 +5,20 @@
 ### <ins>HOW TO RUN</ins>
 
 _Files from here_ <br/>
-  -Coding file titled "Reaction Code"
+  - Coding file titled "Reaction Code" <br/>
 
 _Libraries you Need_ <br/>
-  -Adafruit SSD1306 by Adafruit (install from Arduino IDE library manager) <br/>
-  -Adafruit GFX by Adafruit (install from Arduino IDE library manager) <br/>
+  - Adafruit SSD1306 by Adafruit (install from Arduino IDE library manager) <br/>
+  - Adafruit GFX by Adafruit (install from Arduino IDE library manager) <br/>
   
 _Hardware Needed_ <br/>
-
+  - Arduino Mega <br/>
+  - 12 LEDs (any color) <br/>
+  - 1 pusbutton (you can use more if you want different buttons to control reset/enter)
+  - 12 TCRT5000 sensors <br/>
+  - .09" OLED screen <br/>
+  - 360 degree servo <br/>
+  - 2 servo one arm bits. I cut one in half and glued it to the other to get the desired length. <br/>
 
 ## **If you've never installed a library before:**
 1. Open Arduino IDE
