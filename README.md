@@ -14,7 +14,7 @@ _Libraries you Need_ <br/>
 _Hardware Needed_ <br/>
   - Arduino Mega <br/>
   - 12 LEDs (any color) <br/>
-  - 1 pusbutton (you can use more if you want different buttons to control reset/enter)
+  - 1 pushbutton (you can use more if you want different buttons to control reset/enter)
   - 12 TCRT5000 sensors <br/>
   - .09" OLED screen <br/>
   - 360 degree servo <br/>
