@@ -35,11 +35,11 @@ If you press at an incorrect time, the score will not go up and the game will en
 The game continues forever, although there is a speed cap after level 35.<br/>
 
 _Game Features_ <br/>
-- Arm has 360 degree rotation<br/>
-- Detection sensors can detect the arm accurately <br/>
-- System is able to tell the difference between correct vs incorrect press <br/>
-- OLED scoreboard displays and increments score accurately <br/>
-- When the game ends the LEDs preform a "game-over" light sequence <br/>
+- Arm has 360 degree rotation. <br/>
+- Detection sensors can detect the arm accurately. <br/>
+- System is able to tell the difference between correct vs incorrect press. <br/>
+- OLED scoreboard displays and increments score accurately. <br/>
+- When the game ends the LEDs preform a "game-over" light sequence. <br/>
 
 ## Known Issues <br/>
 Every 360 degree servo is slightly different. While the resting point for most is intended to be 90, and any value greater or less than 90 should make the servo move, the one I used will not move Counter-Clockwise unless you pass in a value greater than 96 for Spinner.write(*put value here*). If your Servo isn't moving on the earlier levels or is moving to fast I'd reccomend changing the first few values in the spinSpeeds array. Closer to 90 = slower, further from 90 = faster. <br/>
