@@ -5,7 +5,7 @@
 ### <ins>HOW TO RUN</ins>
 
 _Files from here_ <br/>
-  - Coding file titled "Reaction Code" <br/>
+  - Coding file titled "Reaction Game Code" <br/>
 
 _Libraries you Need_ <br/>
   - Adafruit SSD1306 by Adafruit (install from Arduino IDE library manager) <br/>
