@@ -18,7 +18,7 @@ _Hardware Needed_ <br/>
   - 2-12 TCRT5000 sensors <br/>
   - .09" OLED screen <br/>
   - 360 degree servo <br/>
-  - 2 servo one arm bits. I cut one in half and glued it to the other to get the desired length. <br/>
+  - 2 one-sided Servo arm bit. I cut one in half and glued it to the other to get my desired length.  <br/>
   
 ## **If you've never installed a library before:**
 1. Open Arduino IDE
