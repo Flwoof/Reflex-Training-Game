@@ -42,9 +42,11 @@ The game continues forever, although there is a speed cap after level 35.<br/>
 - When the game ends the LEDs preform a "game-over" light sequence <br/>
 
 ## Known Issues <br/>
-Every 360 degree servo is slightly different. While the resting point for most is intended to be 90, and any value greater or less than 90 should make the servo move, the one I used will not move Counter-Clockwise unless you pass in a value greater than 96 for Spinner.write(*put value here*). If your Servo isn't moving on the earlier levels or is moving to fast I'd reccomend changing the first few values in the spinSpeeds array. Closer to 90 = slower, further from 90 = faster. <br/>
+Every 360 degree servo is slightly different. While the resting point for most is intended to be 90, and any value greater or less than 90 should make the servo move, the one I used will not move Counter-Clockwise unless you pass in a value greater than 96 for Spinner.write(*put value here*). If your Servo isn't moving on the earlier levels or is moving too fast I'd reccomend changing the first few values in the spinSpeeds array. Closer to 90 = slower, further from 90 = faster. <br/>
 
 The debounce time is currently at 150ms, which is optimal for this project. Regardless, if you spam the pushbutton while over the sensor your correct press can get counted as incorrect <br/>
+
+The current code is intended for 2 LEDs instead of 12. To adjust the code for 12 LEDS (or your desired number) simply copy paste lines 78-90 (both inclusive) for each additional LED you would like. Adjust the number on line 78 to be the pin number for your additional LED(s). variable "reading" on line 80 to be reading3 if 3rd LED, reading4 if 4th LED, reading5 if 5th LED, etc.
 
 
 
