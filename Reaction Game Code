@@ -145,3 +145,54 @@ void loop() {
   }//game running loop
   spinner.detach();
 }
+void gameOverSequence(){
+  //part 1 of animation
+  //every light turns on, intended to be abrupt
+  for(int i = 7; i < 19; i++){
+    digitalWrite(i, HIGH);
+  }
+  delay(500);
+  //then they all turn off at once
+  for(int i = 7; i < 19; i++){
+    digitalWrite(i, LOW);
+  }
+  //Part 2 of animation
+  //This is an odd-even alternating animation that plays twice
+  for(int i = 0; i < 2; i++){
+  //first turn on all the yellow LEDs
+    for(int y = 7; y < 18; y+=2){
+      digitalWrite(y, HIGH);
+    }
+    delay(300);
+  //turn them all off
+    for(int y = 7; y < 18; y+=2){
+      digitalWrite(y, LOW);
+    }
+  //same thing for white LEDs
+    for(int w = 8; w < 19; w+=2){
+      digitalWrite(w, HIGH);
+    }
+    delay(300);
+  for(int w = 8; w < 19; w+=2){
+    digitalWrite(w, LOW);
+  }
+  delay(300);
+  } //end of alternating sequence loop
+  //Part 3 of animation
+  //it starts at the top and goes around in a circle
+  for(int i = 7; i < 19; i++){
+    digitalWrite(i, HIGH);
+    delay(50);
+    digitalWrite(i, LOW);
+  }
+  //start at 7 again
+  digitalWrite(7, HIGH);
+  delay(50);
+  digitalWrite(7, LOW);
+  //then it does it in reverse
+  for(int i = 19; i > 7; i--){
+    digitalWrite(i, HIGH);
+    delay(50);
+    digitalWrite(i, LOW);
+  }
+}
