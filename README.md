@@ -34,7 +34,7 @@ If you press at the correct time, the score counter on the OLED screen will incr
 If you press at an incorrect time, the score will not go up and the game will end. <br/>
 The game continues forever, although there is a speed cap after level 35.<br/>
 
-_Game Features_ <br/>
+### _Game Features_ <br/>
 - Arm has 360 degree rotation <br/>
 - Detection sensors can detect the arm accurately <br/>
 - System is able to tell the difference between correct vs incorrect press <br/>
